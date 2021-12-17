@@ -1,0 +1,225 @@
+@font-face {
+	font-family: "telegrafregular";
+	src: url("../fonts/Telegraf Regular 400.otf");
+}
+
+@font-face {
+	font-family: "telegrafulrabold";
+	src: url("../fonts/Telegraf UltraBold 800.otf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: telegrafregular;
+}
+
+body{
+	background-color: #afaaaa;
+
+}
+
+.btn {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.left {
+	width: 1152px;
+	height: 700px;
+	background-color: #b0d8da;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.left h1 {
+	position: absolute;
+	width: 365px;
+	height: 98px;
+	left: 25px;
+	top: 102px;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.left img {
+	position: absolute;
+	left: 0.78%;
+	right: 61.98%;
+	top: 35.69%;
+	bottom: -5.26%;
+	transform: rotate(-7.75deg);
+	z-index: 999;
+}
+
+.right {
+	position: absolute;
+	width: 785px;
+	height: 700px;
+	left: 420px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: #ffffff;
+	border-radius: 38px;
+}
+
+.right h1 {
+	position: absolute;
+	width: 220px;
+	height: 37px;
+	left: 159px;
+	top: 102px;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 35px;
+	font-family: "telegrafulrabold";
+}
+
+.google {
+	position: absolute;
+	width: 210px;
+	height: 45px;
+	left: 159px;
+	top: 172px;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	border-radius: 36px;
+}
+
+.google-img {
+	position: absolute;
+	left: 13px;
+	bottom: 11px;
+}
+
+.google span {
+	position: absolute;
+	left: 51px;
+	font-size: 14px;
+	line-height: 35px;
+	bottom: 5px;
+	top: 5px;
+}
+
+.facebook {
+	position: absolute;
+	width: 220px;
+	height: 45px;
+	left: 425px;
+	top: 172px;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	border-radius: 36px;
+}
+
+.fb-img {
+	position: absolute;
+	left: 12px;
+	bottom: 7px;
+}
+
+.facebook span {
+	position: absolute;
+	left: 51px;
+	font-size: 14px;
+	line-height: 35px;
+	bottom: 5px;
+	top: 5px;
+}
+
+.or {
+	position: absolute;
+	width: 70px;
+	height: 35px;
+	left: 370px;
+	top: 251px;
+	color: #a3a3a3;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.signin {
+	width: 100%;
+	height: 35px;
+	transition: width 0.4s ease-in-out;
+	padding: 12px 20px;
+	margin: 8px 0;
+	position: absolute;
+	top: 305px;
+	left: 159px;
+}
+
+input[name="name"] {
+	font-size: 18px;
+	line-height: 35px;
+	padding-top: 19px;
+	border: none;
+	border-bottom: 1px solid #e8e8e8;
+	outline: none;
+	width: 500px;
+}
+
+input[name="email"] {
+	font-size: 18px;
+	line-height: 35px;
+	padding-top: 30px;
+	border: none;
+	border-bottom: 1px solid #e8e8e8;
+	outline: none;
+	width: 500px;
+}
+
+input[name="password"] {
+	font-size: 18px;
+	line-height: 35px;
+	padding-top: 30px;
+	border: none;
+	border-bottom: 1px solid #e8e8e8;
+	outline: none;
+	width: 500px;
+}
+
+.submit {
+	position: absolute;
+	width: 500px;
+	height: 45px;
+	top: 250px;
+	background: #92cbce;
+	border: 1px solid #9acbce;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 35px;
+	color: #ffffff;
+}
+
+.login {
+	position: absolute;
+	width: 251px;
+	height: 35px;
+	left: 180px;
+	top: 604px;
+	padding-top: 29px;
+	font-size: 16px;
+	line-height: 35px;
+	color: #9d9d9d;
+}
+
+.login a{
+	text-decoration: none;
+	color: #92cbce;
+}
